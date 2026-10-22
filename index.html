@@ -287,6 +287,52 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--blue-d);outline-of
   .sheet .pimg{min-height:0;margin:12px 12px 0}
   .sheet .pbody{padding:26px 28px 34px}
   .ritual{grid-template-columns:1fr}
+  /* компактная версия для телефона: всё ближе, три средства в одну линию, кнопки после картинок */
+  header{padding:8px var(--pad);gap:12px}.logo{font-size:22px}.login svg{width:30px;height:30px}.burger{font-size:24px}
+  .screen{padding:72px var(--pad) 26px}
+  #hero{padding-top:72px;padding-bottom:0}
+  #hero h1{font-size:34px;line-height:1.1;margin-bottom:10px}
+  #hero p{font-size:14.5px;margin-bottom:14px;max-width:none}
+  #hero .txt{padding-bottom:10px}.concept{margin-top:10px;font-size:10px}
+  #hero .photo{height:360px}
+  #hero .btn,#balance .btn{padding:13px 22px;font-size:13px;gap:10px}
+  #products{padding:34px var(--pad) 26px}
+  .grid4{min-height:0;gap:8px}
+  #products .grid4{grid-template-columns:repeat(3,1fr)}
+  .intro{padding:18px 16px;border-radius:24px;gap:10px;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:flex-start}
+  .intro h2{font-size:22px;line-height:1.15;flex:1 1 100%}
+  .intro .btn{padding:10px 16px;font-size:12px;gap:8px}
+  .card{padding:12px 8px;border-radius:20px}
+  .card .num{font-size:14px;padding-bottom:6px}
+  .card h3{font-size:11.5px;margin-top:8px}
+  .card .price{font-size:11px;margin-top:2px}
+  .card .pic{aspect-ratio:340/480;margin:8px 0;border-radius:12px;background-size:contain;background-repeat:no-repeat}
+  .card .btn.small{padding:7px 6px;font-size:9.5px;gap:0;text-align:center;line-height:1.1;letter-spacing:0}.card .btn .arr{display:none}
+  #balance{padding-bottom:0}
+  #balance .txt{display:contents}
+  #balance h2{font-size:30px;margin:6px 0 6px}#balance .sub{font-size:16px;margin-bottom:8px}#balance p.lead{font-size:14px;margin-bottom:12px;max-width:none}
+  #balance .photo{height:300px;margin:0 calc(-1*var(--pad));order:1}
+  #balance .btn{order:2;margin:14px 0 22px}
+  #about{padding-top:70px}#about .inner{padding-bottom:150px}#about .water{height:170px}
+  #about h2{font-size:26px;margin:10px 0 12px}#about p{font-size:14px}
+  .st1>div:first-child,.st2>div:first-child,.st3>div:first-child{display:contents}
+  .qstep{gap:12px}.qstep h2{font-size:28px;margin:6px 0 8px}.qstep .lead{font-size:14px}
+  .progress{margin:8px 0;font-size:13px}
+  .opts{order:2;gap:8px;max-width:none}.quiz-actions{order:3}
+  .opt{padding:10px 14px;font-size:14.5px;gap:12px;border-radius:16px}.opt .ico{flex:0 0 38px;height:38px}.opt .ico svg{width:20px;height:20px}.opt .dot{flex:0 0 20px;height:20px}
+  .res-head{margin-bottom:12px}.res-head h2{font-size:28px;margin:4px 0 6px}.res-head .lead{font-size:13.5px}
+  .st4 .pcs{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 calc(var(--pad)*-1);padding:0 var(--pad) 6px;scroll-padding:0 var(--pad);scrollbar-width:none}
+  .st4 .pcs::-webkit-scrollbar{display:none}
+  .st4 .pc{flex:0 0 150px;min-width:0;padding:8px 8px 12px;border-radius:20px;scroll-snap-align:start}
+  .st4 .pc .tag{font-size:9px;margin:8px 4px 2px}.st4 .pc h3{font-size:12px;min-height:0;margin:0 4px}.st4 .pc .vol{font-size:11px;margin:2px 4px 8px}.st4 .pc .buy summary{padding:9px 12px;font-size:12px}
+  .res-btns{margin-top:14px}
+  .block{padding:30px var(--pad)}.block h2.title{font-size:24px;margin:6px 0 14px}
+  .reviews{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 calc(var(--pad)*-1);padding:0 var(--pad) 6px;scroll-padding:0 var(--pad);scrollbar-width:none}
+  .reviews::-webkit-scrollbar{display:none}
+  .rev{flex:none;width:240px;scroll-snap-align:start;padding:16px;border-radius:20px}.rev p{font-size:13.5px;margin-bottom:8px}
+  .demo-note{margin:-6px 0 12px;font-size:12px}
+  details{padding:12px 0}summary{font-size:15px}details p{font-size:13px;margin-top:8px}
+  footer{padding:24px var(--pad) 18px;gap:14px 40px}footer ul{font-size:13px}footer small{font-size:11px}
 }
 @media (max-width:520px){
   .grid4{grid-template-columns:1fr}
